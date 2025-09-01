@@ -31,8 +31,10 @@ It lets a target network receive **explicit spike trains**. This enables the dri
 
 ### 2) Foundations for multi‑network simulations
 
-Ongoing efforts have focused on building dual/multi-network simulation capabilities, evolving from initial explorations of network creation and connectivity to a robust framework. This includes implementing minimal_dual_network_simulation.py to construct two side-by-side minimal HNN-Core networks with optional suffix-based cell type renaming, non-overlapping gid_ranges, and repaired connectivity (src_gids, target_gids, gid_pairs) after renaming. Added deterministic drive setup (using get_next_gid), independent evoked (and other) drives per network, explicit dipole_cell_types for suffixed pyramidal cells, JSON export, and joint visualization (combined spike raster + comparative dipoles). A pivotal milestone is the PR [WIP]: Testing minimal dual network #1096](https://github.com/jonescompneurolab/hnn-core/pull/1096), set to merge very soon (by early September 2025) after final adjustments, marking a significant step toward full multi-network simulations.
-
+* Ongoing efforts have focused on building dual/multi-network simulation capabilities, evolving from initial explorations of network creation and connectivity to a robust framework.
+* Implemented minimal_dual_network_simulation.py to construct two side-by-side minimal HNN-Core networks with optional suffix-based cell type renaming.
+* Ensured non-overlapping gid_ranges by adding deterministic drive setup using get_next_gid for independent evoked (and other) drives per network.
+* Included explicit dipole_cell_types for suffixed pyramidal cells and joint visualization (combined spike raster + comparative dipoles).
 ---
 
 ## Pull requests (chronological)
