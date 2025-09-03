@@ -94,9 +94,18 @@ It lets a target network receive **explicit spike trains**. This enables the dri
 > Detailed weekly notes, code reviews, and discussion are referenced inside PR threads and lab Notion pages.
 
 ---
+## Future work
+
+* Both dual networks still need to be simulated within the same simulation, after accounting for celltype-naming inconsistencies.
+* Inside a combined dual network simulation, tests need to be run to ensure that local connectivity and drive connectivity are connected successfully.
+* Finally, within a combined dual network simulation, support needs to be added for introducing new connections between each of the dual networks. Example documentation and testing should be added.
+
+---
 
 ## Acknowledgements
 
-Thank you to my mentors **Austin Soplata**, **Dylan S. Daniels**, and **Nicholas Tolley** for guidance, reviews, and design feedback.
+- Thank you to my mentors Austin Soplata, Dylan S. Daniels, and Nicholas Tolley for their guidance, reviews, and design feedback throughout this journey.
+- I also extend my gratitude to the INCF for organizing and managing this GSoC project, and to Google for funding and supporting this incredible opportunity
+
 
 ---
